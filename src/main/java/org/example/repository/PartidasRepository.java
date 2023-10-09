@@ -58,4 +58,7 @@ public class PartidasRepository {
         return partidas;
     }
 
+    public List<Partida> getPartidas() {
+        return partidas;
+    }
 }

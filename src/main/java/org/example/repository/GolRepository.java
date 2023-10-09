@@ -18,7 +18,7 @@ public class GolRepository {
         this.caminhoArquivo = "campeonato-brasileiro-gols.csv";
     }
 
-    private List<Gol> setGols() {
+    public List<Gol> setGols() {
         String line;
         String csvSplitBy = ",";
 
@@ -45,6 +45,10 @@ public class GolRepository {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return gols;
+    }
+
+    public List<Gol> getGols() {
         return gols;
     }
 

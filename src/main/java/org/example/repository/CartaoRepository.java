@@ -48,4 +48,8 @@ public class CartaoRepository {
         return cartoes;
     }
 
+    public List<Cartao> getCartoes() {
+        return cartoes;
+    }
+
 }
