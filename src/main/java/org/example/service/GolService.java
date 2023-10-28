@@ -50,11 +50,11 @@ public class GolService {
         return jogadoresMaisGolsPorTipo;
     }
 
-    public List<Map.Entry<String, Long>> getJogadorMaisGolsPenalts(String tipoGol) {
+    public List<Map.Entry<String, Long>> getJogadorMaisGolsPenalts() {
         return getJogadorMaisGolsPorTipo("Penalty");
     }
 
-    public List<Map.Entry<String, Long>> getJogadorMaisGolsGolsContra(String tipoGol) {
+    public List<Map.Entry<String, Long>> getJogadorMaisGolsGolsContra() {
         return getJogadorMaisGolsPorTipo("Gol Contra");
     }
 
